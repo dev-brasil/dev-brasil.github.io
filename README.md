@@ -10,6 +10,17 @@ O blog está publicado neste repositório, em `site/`
 
 https://dev-brasil.github.io
 
+## nota
+
+Todas as vezes que antes de dar `git push` para esse repositório é necessário dar:
+
+```
+git pull --rebase
+```
+
+O `git pull --rebase` pega o repositório com as alterações feitas por outros, coloca as tuas alterações emcima.
+De mdo que não há inteferência, já que esse repositório é atualizado automaticamente
+
 ```
 $ fortune
 

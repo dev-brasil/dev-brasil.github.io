@@ -1,22 +1,23 @@
 # Dev-Brasil Weblog
 
+[![Travis](https://img.shields.io/travis/dev-brasil/blog-posts.svg?style=flat-square)](https://travis-ci.org/dev-brasil/blog-posts)
+
+Para postar faça pull requests para o repositório:
+
+https://github.com/dev-brasil/blog-posts
+
+O blog está publicado neste repositório, em `site/`
+
 https://dev-brasil.github.io
 
 ```
 $ fortune
 
-			Pittsburgh driver's test
-			
-(10) Potholes are
-
-	(a) extremely dangerous.
-	(b) patriotic.
-	(c) the fault of the previous administration.
-	(d) all going to be fixed next summer.
-
-The correct answer is (b). Potholes destroy unpatriotic, unamerican,
-imported cars, since the holes are larger than the cars.  If you drive a
-big, patriotic, American car you have nothing to worry about.
+Grand Master Turing once dreamed that he was a machine.  When he awoke
+he exclaimed:
+	"I don't know whether I am Turing dreaming that I am a machine,
+	or a machine dreaming that I am Turing!"
+		-- Geoffrey James, "The Tao of Programming"
 ```
 
 ## Tools & Feats

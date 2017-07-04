@@ -1,0 +1,27 @@
+language: python
+python:
+  - "3.6"
+branches:
+  only:
+  - master
+install:
+- pip install pelican ghp-import Markdown
+script:
+- echo -e "${GH_DEPLOY_KEY}" > ~/.ssh/id_rsa
+- chmod 600 ~/.ssh/id_rsa
+- echo -e "${GH_PUBKEY}" > ~/.ssh/id_rsa.pub
+- chmod 600 ~/.ssh/id_rsa.pub
+- git config --global push.default matching
+- git config --global user.name = 'DEV-BRASIL'
+- git config --global user.email = 'user@host.com'
+- git clone 'git@github.com:dev-brasil/dev-brasil.github.io.git' theblog
+- cd theblog
+- rm -rf 'content'
+- git clone 'https://github.com/dev-brasil/blog-posts.git' content
+- rm -rf content/.git
+- make clean
+- make publish
+- git add .
+- git commit -a -m 'okz'
+- git push
+

@@ -1,6 +1,5 @@
 title: Markdown Placeholder
 tags: meta, test
-pin: yes
 
 # Lorem Ipsum ─ Header1
 

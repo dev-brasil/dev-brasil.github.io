@@ -1,6 +1,6 @@
-# Dev-Brasil Weblog
-
 [![Travis](https://img.shields.io/travis/dev-brasil/blog-posts.svg?style=flat-square)](https://travis-ci.org/dev-brasil/blog-posts)
+
+# Dev-Brasil Weblog
 
 Para postar faça pull requests para o repositório:
 

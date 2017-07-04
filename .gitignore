@@ -1,3 +1,6 @@
+# dev-brasil: isso será ignorado pelo repositório clonado pelo travis
+content-external/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

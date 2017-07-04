@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 import os
 
-AUTHOR = 'Dev-Brasil'
-SITENAME = "Deb-Brasil"
+AUTHOR = 'Time Dev-Brasil'
+SITENAME = "Dev-Brasil"
 SITEURL = 'https://dev-brasil.github.io/site'
 SITESUBTITLE = 'site de programação para iniciantes'
 

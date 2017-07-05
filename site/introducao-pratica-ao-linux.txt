@@ -1,8 +1,6 @@
 title: Introdução Prática ao Linux
 tags: linux, iniciantes
 
-# Introdução Prática ao Linux
-
 O linux é um sistema muito adequado para um programador iniciante.
 
 Essa introdução ao linux visa dar uma idéia geral do sistema operacional linux
@@ -15,8 +13,20 @@ linux (Ubuntu) por si mesmo.
 
 *ESCREVA-ME!* apenas uma linha basta. Tipo : “porque sim”, ou “depois eu explico.” :)
 
-## Instalando o linux
+### Instalando o linux no meu pc pessoal
 
 *instruções para instalação via USB drive, dual-boot*
+
+## E se eu tiver dificuldades
+
+*sobre como consultar a comunidade para resolver suas dificuldades*
+
+* stackoverflow
+* forum da distro
+* irc (freenode)
+
+etc
+
+* * *
 
 *continue este tutorial*

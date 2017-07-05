@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Dev-Brasil</title><link href="https://dev-brasil.github.io/site/" rel="alternate"></link><link href="https://dev-brasil.github.io/site/feeds/all.atom.xml" rel="self"></link><id>https://dev-brasil.github.io/site/</id><updated>2017-07-05T20:57:31-03:00</updated><entry><title>Introdução Prática ao Linux</title><link href="https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" rel="alternate"></link><published>2017-07-05T20:57:31-03:00</published><updated>2017-07-05T20:57:31-03:00</updated><author><name>Time Dev-Brasil</name></author><id>tag:dev-brasil.github.io,2017-07-05:/site/introducao-pratica-ao-linux.html</id><summary type="html">&lt;h1 id="introducao-pratica-ao-linux"&gt;Introdução Prática ao Linux&lt;/h1&gt;
-&lt;p&gt;O linux é um sistema muito adequado para um programador iniciante.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dev-Brasil</title><link href="https://dev-brasil.github.io/site/" rel="alternate"></link><link href="https://dev-brasil.github.io/site/feeds/all.atom.xml" rel="self"></link><id>https://dev-brasil.github.io/site/</id><updated>2017-07-05T21:09:47-03:00</updated><entry><title>Introdução Prática ao Linux</title><link href="https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" rel="alternate"></link><published>2017-07-05T21:09:47-03:00</published><updated>2017-07-05T21:09:47-03:00</updated><author><name>Time Dev-Brasil</name></author><id>tag:dev-brasil.github.io,2017-07-05:/site/introducao-pratica-ao-linux.html</id><summary type="html">&lt;p&gt;O linux é um sistema muito adequado para um programador iniciante.&lt;/p&gt;
 &lt;p&gt;Essa introdução ao linux visa dar uma idéia geral do sistema operacional linux
 para aqueles que não sabem nada e ensinar você a instalar uma distribuição de
 linux (Ubuntu) por si mesmo.&lt;/p&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#introducao-pratica-ao-linux"&gt;Introdução Prática ao …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;h1 id="introducao-pratica-ao-linux"&gt;Introdução Prática ao Linux&lt;/h1&gt;
-&lt;p&gt;O linux é um sistema muito adequado para um programador iniciante.&lt;/p&gt;
+&lt;li&gt;&lt;a href="#o-que-e-o-linux-e-porque-deveria-usa-lo"&gt;O que é o linux e porque …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;O linux é um sistema muito adequado para um programador iniciante.&lt;/p&gt;
 &lt;p&gt;Essa introdução ao linux visa dar uma idéia geral do sistema operacional linux
 para aqueles que não sabem nada e ensinar você a instalar uma distribuição de
 linux (Ubuntu) por si mesmo.&lt;/p&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#introducao-pratica-ao-linux"&gt;Introdução Prática ao Linux&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#o-que-e-o-linux-e-porque-deveria-usa-lo"&gt;O que é o linux e porque deveria usá-lo?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#instalando-o-linux"&gt;Instalando o linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#o-que-e-o-linux-e-porque-deveria-usa-lo"&gt;O que é o linux e porque deveria usá-lo?&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#instalando-o-linux-no-meu-pc-pessoal"&gt;Instalando o linux no meu pc pessoal&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href="#e-se-eu-tiver-dificuldades"&gt;E se eu tiver dificuldades&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h2 id="o-que-e-o-linux-e-porque-deveria-usa-lo"&gt;O que é o linux e porque deveria usá-lo?&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;ESCREVA-ME!&lt;/em&gt; apenas uma linha basta. Tipo : “porque sim”, ou “depois eu explico.” :)&lt;/p&gt;
-&lt;h2 id="instalando-o-linux"&gt;Instalando o linux&lt;/h2&gt;
+&lt;h3 id="instalando-o-linux-no-meu-pc-pessoal"&gt;Instalando o linux no meu pc pessoal&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;instruções para instalação via USB drive, dual-boot&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="e-se-eu-tiver-dificuldades"&gt;E se eu tiver dificuldades&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;sobre como consultar a comunidade para resolver suas dificuldades&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;stackoverflow&lt;/li&gt;
+&lt;li&gt;forum da distro&lt;/li&gt;
+&lt;li&gt;irc (freenode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;etc&lt;/p&gt;
+&lt;hr /&gt;
 &lt;p&gt;&lt;em&gt;continue este tutorial&lt;/em&gt;&lt;/p&gt;</content><category term="linux"></category><category term="iniciantes"></category></entry></feed>

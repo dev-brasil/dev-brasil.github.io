@@ -1508,7 +1508,7 @@ img {
 
 div.toc:before {
     display: block;
-    content: 'Index Publicationis';
+    content: 'Índice de Conteúdos';
     font-size: large;
     font-family: 'Roboto Condensed';
     font-weight: 600;

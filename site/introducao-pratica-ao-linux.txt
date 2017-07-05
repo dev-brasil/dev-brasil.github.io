@@ -17,7 +17,7 @@ linux (Ubuntu) por si mesmo.
 
 *instruções para instalação via USB drive, dual-boot*
 
-## E se eu tiver dificuldades
+### E se eu tiver dificuldades
 
 *sobre como consultar a comunidade para resolver suas dificuldades*
 

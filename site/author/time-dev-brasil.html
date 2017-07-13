@@ -79,6 +79,9 @@
     <ul>
 	<li role="presentation"><a href="https://dev-brasil.github.io/site/tag/linux.html">linux</a></li>
 	<li role="presentation"><a href="https://dev-brasil.github.io/site/tag/iniciantes.html">iniciantes</a></li>
+	<li role="presentation"><a href="https://dev-brasil.github.io/site/tag/git.html">git</a></li>
+	<li role="presentation"><a href="https://dev-brasil.github.io/site/tag/normas.html">normas</a></li>
+	<li role="presentation"><a href="https://dev-brasil.github.io/site/tag/dev-brasil.html">dev-brasil</a></li>
     </ul>
     <div class="menulabel">categories</div>
     <ul>
@@ -129,7 +132,7 @@
                 </h2>
                 <span class="post-meta">
                         <a href="https://dev-brasil.github.io/site/author/time-dev-brasil.html">Time dev-brasil</a>
-                    | <time datetime="Wed 05 July 2017">Wed 05 July 2017</time>
+                    | <time datetime="Thu 13 July 2017">Thu 13 July 2017</time>
                 <!-- </span>
 		<span class="post-meta"> -->
  |
@@ -167,6 +170,64 @@ linux (Ubuntu) por si mesmo.</p>
 <p>etc</p>
 <hr />
 <p><em>continue este tutorial</em></p>
+                </section>
+            </div>
+        </article>
+        <article class="post">
+        <div class="inner">
+            <header class="post-header">         
+                <h2 class="post-title"><a href="https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html" rel="bookmark" title="Permalink to Nota sobre os commits no dev-brasil">Nota sobre os commits no dev-brasil</a>
+                </h2>
+                <span class="post-meta">
+                        <a href="https://dev-brasil.github.io/site/author/time-dev-brasil.html">Time dev-brasil</a>
+                    | <time datetime="Thu 13 July 2017">Thu 13 July 2017</time>
+                <!-- </span>
+		<span class="post-meta"> -->
+ |
+		    <a href="https://dev-brasil.github.io/site/tag/git.html">git</a>, 		    <a href="https://dev-brasil.github.io/site/tag/normas.html">normas</a>, 		    <a href="https://dev-brasil.github.io/site/tag/dev-brasil.html">dev-brasil</a>                </span>
+                <span class="post-meta-right">
+		    <a href="https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.txt">Show source</a>
+                </span>
+                <div class="clear"></div>
+            </header>
+                <section class="post-content">
+                <p>Este post é uma sugestão de padrão para os
+commits feitos nos repositórios do dev-brasil
+no github. Ela pode (e deve) ser revisada,
+podendo ser trocada por uma convenção julgada
+mais conveniente pelo time dev-brasil.</p>
+<div class="toc">
+<ul>
+<li><a href="#padroes-a-serem-seguidos-em-um-commit">Padrões a serem seguidos em um commit</a><ul>
+<li><a href="#o-formato-da-mensagem-do-commit">O formato da mensagem do commit</a></li>
+<li><a href="#as-tags">As tags</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="padroes-a-serem-seguidos-em-um-commit">Padrões a serem seguidos em um commit</h2>
+<p>Cada commit serve para alguma finalidade
+específica: resolver um bug, adicionar uma
+nova funcionalidade ao código etc. Deve-se
+frisar aqui que os commits devem ser curtos
+sempre que possível, e devem resolver um problema
+apenas. Commits longos, que alteram várias partes
+do código ao mesmo tempo, tendem a impactar a revisão
+pelos pares de forma negativa. O objetivo
+deste post é propor um formato para as mensagens de commit
+do repositório.</p>
+<h3 id="o-formato-da-mensagem-do-commit">O formato da mensagem do commit</h3>
+<p>[TAG] resumo (deve ser curto)
+(linha vazia)
+Explicação mais detalhada se necessário</p>
+<h3 id="as-tags">As tags</h3>
+<ul>
+<li>[DEV] commits normais de desenvolvimento</li>
+<li>[DEBUG] commits de debug</li>
+<li>[BUILD] para problemas de compilação</li>
+<li>[WARNINGFIX] para commits que eliminam warnings de compilação</li>
+</ul>
+<p>Outras tags poderão ser sugeridas, dentro do espírito acima.</p>
                 </section>
             </div>
         </article>

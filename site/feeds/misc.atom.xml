@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Dev-Brasil - misc</title><link href="https://dev-brasil.github.io/site/" rel="alternate"></link><link href="https://dev-brasil.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://dev-brasil.github.io/site/</id><updated>2017-07-05T21:27:45-03:00</updated><entry><title>Introdução Prática ao Linux</title><link href="https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" rel="alternate"></link><published>2017-07-05T21:27:45-03:00</published><updated>2017-07-05T21:27:45-03:00</updated><author><name>Time Dev-Brasil</name></author><id>tag:dev-brasil.github.io,2017-07-05:/site/introducao-pratica-ao-linux.html</id><summary type="html">&lt;p&gt;O linux é um sistema muito adequado para um programador iniciante.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Dev-Brasil - misc</title><link href="https://dev-brasil.github.io/site/" rel="alternate"></link><link href="https://dev-brasil.github.io/site/feeds/misc.atom.xml" rel="self"></link><id>https://dev-brasil.github.io/site/</id><updated>2017-07-13T01:21:36-03:00</updated><entry><title>Introdução Prática ao Linux</title><link href="https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" rel="alternate"></link><published>2017-07-13T01:21:36-03:00</published><updated>2017-07-13T01:21:36-03:00</updated><author><name>Time Dev-Brasil</name></author><id>tag:dev-brasil.github.io,2017-07-13:/site/introducao-pratica-ao-linux.html</id><summary type="html">&lt;p&gt;O linux é um sistema muito adequado para um programador iniciante.&lt;/p&gt;
 &lt;p&gt;Essa introdução ao linux visa dar uma idéia geral do sistema operacional linux
 para aqueles que não sabem nada e ensinar você a instalar uma distribuição de
 linux (Ubuntu) por si mesmo.&lt;/p&gt;
@@ -31,4 +31,49 @@ linux (Ubuntu) por si mesmo.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;etc&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;continue este tutorial&lt;/em&gt;&lt;/p&gt;</content><category term="linux"></category><category term="iniciantes"></category></entry></feed>
+&lt;p&gt;&lt;em&gt;continue este tutorial&lt;/em&gt;&lt;/p&gt;</content><category term="linux"></category><category term="iniciantes"></category></entry><entry><title>Nota sobre os commits no dev-brasil</title><link href="https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html" rel="alternate"></link><published>2017-07-13T01:21:36-03:00</published><updated>2017-07-13T01:21:36-03:00</updated><author><name>Time Dev-Brasil</name></author><id>tag:dev-brasil.github.io,2017-07-13:/site/nota-sobre-os-commits-no-dev-brasil.html</id><summary type="html">&lt;p&gt;Este post é uma sugestão de padrão para os
+commits feitos nos repositórios do dev-brasil
+no github. Ela pode (e deve) ser revisada,
+podendo ser trocada por uma convenção julgada
+mais conveniente pelo time dev-brasil.&lt;/p&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#padroes-a-serem-seguidos-em-um-commit"&gt;Padrões a serem seguidos em um commit&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#o-formato-da-mensagem-do-commit"&gt;O formato da mensagem do commit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#as-tags"&gt;As tags …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Este post é uma sugestão de padrão para os
+commits feitos nos repositórios do dev-brasil
+no github. Ela pode (e deve) ser revisada,
+podendo ser trocada por uma convenção julgada
+mais conveniente pelo time dev-brasil.&lt;/p&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#padroes-a-serem-seguidos-em-um-commit"&gt;Padrões a serem seguidos em um commit&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#o-formato-da-mensagem-do-commit"&gt;O formato da mensagem do commit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#as-tags"&gt;As tags&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 id="padroes-a-serem-seguidos-em-um-commit"&gt;Padrões a serem seguidos em um commit&lt;/h2&gt;
+&lt;p&gt;Cada commit serve para alguma finalidade
+específica: resolver um bug, adicionar uma
+nova funcionalidade ao código etc. Deve-se
+frisar aqui que os commits devem ser curtos
+sempre que possível, e devem resolver um problema
+apenas. Commits longos, que alteram várias partes
+do código ao mesmo tempo, tendem a impactar a revisão
+pelos pares de forma negativa. O objetivo
+deste post é propor um formato para as mensagens de commit
+do repositório.&lt;/p&gt;
+&lt;h3 id="o-formato-da-mensagem-do-commit"&gt;O formato da mensagem do commit&lt;/h3&gt;
+&lt;p&gt;[TAG] resumo (deve ser curto)
+(linha vazia)
+Explicação mais detalhada se necessário&lt;/p&gt;
+&lt;h3 id="as-tags"&gt;As tags&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[DEV] commits normais de desenvolvimento&lt;/li&gt;
+&lt;li&gt;[DEBUG] commits de debug&lt;/li&gt;
+&lt;li&gt;[BUILD] para problemas de compilação&lt;/li&gt;
+&lt;li&gt;[WARNINGFIX] para commits que eliminam warnings de compilação&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Outras tags poderão ser sugeridas, dentro do espírito acima.&lt;/p&gt;</content><category term="git"></category><category term="normas"></category><category term="dev-brasil"></category></entry></feed>

@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>Introdução Prática ao Linux</title>
+  <title>Nota sobre os commits no dev-brasil</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -40,31 +40,33 @@
   <![endif]-->
 
 
-    <link href="https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" rel="canonical" />
+    <link href="https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html" rel="canonical" />
 
-        <meta name="description" content="O linux é um sistema muito adequado para um programador iniciante. Essa introdução ao linux visa dar uma idéia geral do sistema...">
+        <meta name="description" content="Este post é uma sugestão de padrão para os commits feitos nos repositórios do dev-brasil no github. Ela pode (e deve) ser revisada,...">
 
         <meta name="author" content="Time Dev-Brasil">
 
-        <meta name="tags" content="linux">
-        <meta name="tags" content="iniciantes">
+        <meta name="tags" content="git">
+        <meta name="tags" content="normas">
+        <meta name="tags" content="dev-brasil">
 
 
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="Dev-Brasil"/>
-<meta property="og:title" content="Introdução Prática ao Linux"/>
-<meta property="og:description" content="O linux é um sistema muito adequado para um programador iniciante. Essa introdução ao linux visa dar uma idéia geral do sistema..."/>
+<meta property="og:title" content="Nota sobre os commits no dev-brasil"/>
+<meta property="og:description" content="Este post é uma sugestão de padrão para os commits feitos nos repositórios do dev-brasil no github. Ela pode (e deve) ser revisada,..."/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html"/>
+<meta property="og:url" content="https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2017-07-13 01:21:36.529420-03:00"/>
 <meta property="article:modified_time" content=""/>
 <meta property="article:author" content="https://dev-brasil.github.io/site/author/time-dev-brasil.html">
 <meta property="article:section" content="misc"/>
-<meta property="article:tag" content="linux"/>
-<meta property="article:tag" content="iniciantes"/>
+<meta property="article:tag" content="git"/>
+<meta property="article:tag" content="normas"/>
+<meta property="article:tag" content="dev-brasil"/>
 <meta property="og:image" content="https://dev-brasil.github.io/site/theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
@@ -73,8 +75,8 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "Introdução Prática ao Linux",
-  "headline": "Introdução Prática ao Linux",
+  "name": "Nota sobre os commits no dev-brasil",
+  "headline": "Nota sobre os commits no dev-brasil",
   "datePublished": "2017-07-13 01:21:36.529420-03:00",
   "dateModified": "",
   "author": {
@@ -83,8 +85,8 @@
     "url": "https://dev-brasil.github.io/site/author/time-dev-brasil.html"
   },
   "image": "https://dev-brasil.github.io/site/theme/images/post-bg.jpg",
-  "url": "https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html",
-  "description": "O linux é um sistema muito adequado para um programador iniciante. Essa introdução ao linux visa dar uma idéia geral do sistema..."
+  "url": "https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html",
+  "description": "Este post é uma sugestão de padrão para os commits feitos nos repositórios do dev-brasil no github. Ela pode (e deve) ser revisada,..."
 }
 </script></head>
 <!-- TODO : Body class -->
@@ -134,7 +136,7 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Introdução Prática ao Linux</h1>
+        <h1 class="post-title">Nota sobre os commits no dev-brasil</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="https://dev-brasil.github.io/site/author/time-dev-brasil.html">Time dev-brasil</a>
@@ -153,51 +155,61 @@
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>O linux é um sistema muito adequado para um programador iniciante.</p>
-<p>Essa introdução ao linux visa dar uma idéia geral do sistema operacional linux
-para aqueles que não sabem nada e ensinar você a instalar uma distribuição de
-linux (Ubuntu) por si mesmo.</p>
+                <p>Este post é uma sugestão de padrão para os
+commits feitos nos repositórios do dev-brasil
+no github. Ela pode (e deve) ser revisada,
+podendo ser trocada por uma convenção julgada
+mais conveniente pelo time dev-brasil.</p>
 <div class="toc">
 <ul>
-<li><a href="#o-que-e-o-linux-e-porque-deveria-usa-lo">O que é o linux e porque deveria usá-lo?</a></li>
-<li><a href="#instalando-o-linux-no-meu-pc-pessoal">Instalando o linux no meu pc pessoal</a><ul>
-<li><a href="#e-se-eu-tiver-dificuldades">E se eu tiver dificuldades</a></li>
+<li><a href="#padroes-a-serem-seguidos-em-um-commit">Padrões a serem seguidos em um commit</a><ul>
+<li><a href="#o-formato-da-mensagem-do-commit">O formato da mensagem do commit</a></li>
+<li><a href="#as-tags">As tags</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<h2 id="o-que-e-o-linux-e-porque-deveria-usa-lo">O que é o linux e porque deveria usá-lo?</h2>
-<p><em>ESCREVA-ME!</em> apenas uma linha basta. Tipo : “porque sim”, ou “depois eu explico.” :)</p>
-<h2 id="instalando-o-linux-no-meu-pc-pessoal">Instalando o linux no meu pc pessoal</h2>
-<p><em>instruções para instalação via USB drive, dual-boot</em></p>
-<h3 id="e-se-eu-tiver-dificuldades">E se eu tiver dificuldades</h3>
-<p><em>sobre como consultar a comunidade para resolver suas dificuldades</em></p>
+<h2 id="padroes-a-serem-seguidos-em-um-commit">Padrões a serem seguidos em um commit</h2>
+<p>Cada commit serve para alguma finalidade
+específica: resolver um bug, adicionar uma
+nova funcionalidade ao código etc. Deve-se
+frisar aqui que os commits devem ser curtos
+sempre que possível, e devem resolver um problema
+apenas. Commits longos, que alteram várias partes
+do código ao mesmo tempo, tendem a impactar a revisão
+pelos pares de forma negativa. O objetivo
+deste post é propor um formato para as mensagens de commit
+do repositório.</p>
+<h3 id="o-formato-da-mensagem-do-commit">O formato da mensagem do commit</h3>
+<p>[TAG] resumo (deve ser curto)
+(linha vazia)
+Explicação mais detalhada se necessário</p>
+<h3 id="as-tags">As tags</h3>
 <ul>
-<li>stackoverflow</li>
-<li>forum da distro</li>
-<li>irc (freenode)</li>
+<li>[DEV] commits normais de desenvolvimento</li>
+<li>[DEBUG] commits de debug</li>
+<li>[BUILD] para problemas de compilação</li>
+<li>[WARNINGFIX] para commits que eliminam warnings de compilação</li>
 </ul>
-<p>etc</p>
-<hr />
-<p><em>continue este tutorial</em></p>
+<p>Outras tags poderão ser sugeridas, dentro do espírito acima.</p>
             </section>
 
             <section class="post-info">
                 <div class="post-share">
-                    <a class="twitter" href="https://twitter.com/share?text=Introdução Prática ao Linux&amp;url=https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <a class="twitter" href="https://twitter.com/share?text=Nota sobre os commits no dev-brasil&amp;url=https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
                     </a>
-                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
                     </a>
-                    <a class="googleplus" href="https://plus.google.com/share?url=https://dev-brasil.github.io/site/introducao-pratica-ao-linux.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://dev-brasil.github.io/site/nota-sobre-os-commits-no-dev-brasil.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
                     </a>
                     <div class="clear"></div>
                 </div>
 
                 <aside class="post-tags">
-<a href="https://dev-brasil.github.io/site/tag/linux.html">linux</a><a href="https://dev-brasil.github.io/site/tag/iniciantes.html">iniciantes</a>                </aside>
+<a href="https://dev-brasil.github.io/site/tag/git.html">git</a><a href="https://dev-brasil.github.io/site/tag/normas.html">normas</a><a href="https://dev-brasil.github.io/site/tag/dev-brasil.html">dev-brasil</a>                </aside>
 
                 <div class="clear"></div>
 
